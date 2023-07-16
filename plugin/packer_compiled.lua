@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["barbecue.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/barbecue.nvim",
+    url = "https://github.com/utilyre/barbecue.nvim"
+  },
+  ["bufferline.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
+    url = "https://github.com/akinsho/bufferline.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -104,6 +114,16 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["codi.vim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/codi.vim",
+    url = "https://github.com/metakirby5/codi.vim"
+  },
+  ["cybu.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/cybu.nvim",
+    url = "https://github.com/ghillb/cybu.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -113,6 +133,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  lazygit = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/lazygit",
+    url = "https://github.com/jesseduffield/lazygit"
+  },
+  ["leetcode.vim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/leetcode.vim",
+    url = "https://github.com/ianding1/leetcode.vim"
   },
   ["lspkind.nvim"] = {
     loaded = true,
@@ -128,6 +158,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["luatab.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/luatab.nvim",
+    url = "https://github.com/alvarosevilla95/luatab.nvim"
+  },
+  ["marks.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/marks.nvim",
+    url = "https://github.com/chentoast/marks.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -164,6 +204,11 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-navic"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/nvim-navic",
+    url = "https://github.com/SmiteshP/nvim-navic"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
@@ -196,6 +241,11 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  tagbar = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/preservim/tagbar"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
@@ -205,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,
