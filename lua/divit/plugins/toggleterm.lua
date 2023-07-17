@@ -1,8 +1,6 @@
--- import gitsigns plugin safely
-local setup, toggleterm = pcall(require, "toggleterm")
-if not setup then
+local status_ok, toggleterm = pcall(require, "toggleterm")
+if not status_ok then
 	return
 end
 
--- configure/enable toggleterm
-toggleterm.setup()
+toggleterm.setup({})
