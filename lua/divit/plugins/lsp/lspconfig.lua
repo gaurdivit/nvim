@@ -86,6 +86,10 @@ lspconfig["tailwindcss"].setup({
 lspconfig["clangd"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
+	init_options = {
+		-- compilationDatabasePath = "/path/to/your/compile_commands.json",
+		fallbackFlags = { "-I/usr/local/include/" },
+	},
 })
 
 -- configure emmet language server

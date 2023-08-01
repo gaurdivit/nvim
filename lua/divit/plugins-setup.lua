@@ -108,7 +108,7 @@ return packer.startup(function(use)
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
 	-- inbuilt terminal
-	use("akinsho/toggleterm.nvim") -- terminal in nvim
+	-- use("akinsho/toggleterm.nvim") -- terminal in nvim
 
 	-- outline for code structure
 	use("preservim/tagbar") -- get an overview of current file structure

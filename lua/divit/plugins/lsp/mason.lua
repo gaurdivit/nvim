@@ -34,7 +34,7 @@ mason_lspconfig.setup({
 		"powershell_es",
 		"jsonls",
 		"cssmodules_ls",
-		"clangd",
+		-- "clangd",
 		"cmake",
 	},
 	-- auto-install configured servers (with lspconfig)
@@ -47,7 +47,7 @@ mason_null_ls.setup({
 		"prettier", -- ts/js formatter
 		"stylua", -- lua formatter
 		"eslint_d", -- ts/js linter
-		"clang_format", -- c++, java, c linter
+		-- "clang_format", -- c++, java, c linter
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

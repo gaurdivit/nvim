@@ -31,6 +31,9 @@ keymap.set("n", "<leader>tc", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>]", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>[", ":tabp<CR>") --  go to previous tab
 
+-- ctags keymap update
+keymap.set("n", "<C-[>", "<C-T>") -- previous heading
+
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
