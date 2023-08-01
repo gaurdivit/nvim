@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/barbecue.nvim",
     url = "https://github.com/utilyre/barbecue.nvim"
   },
+  ["betterTerm.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/betterTerm.nvim",
+    url = "https://github.com/CRAG666/betterTerm.nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -114,6 +119,11 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["code_runner.nvim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/code_runner.nvim",
+    url = "https://github.com/CRAG666/code_runner.nvim"
+  },
   ["codi.vim"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/codi.vim",
@@ -133,11 +143,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
-  lazygit = {
-    loaded = true,
-    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/lazygit",
-    url = "https://github.com/jesseduffield/lazygit"
   },
   ["leetcode.vim"] = {
     loaded = true,

@@ -1,8 +1,8 @@
--- import codei plugin safely
+-- import codi plugin safely
 local setup, codi = pcall(require, "codi")
 if not setup then
 	return
 end
 
--- configure/enable toggleterm
+-- configure/enable codi
 codi.setup()

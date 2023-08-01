@@ -132,13 +132,19 @@ return packer.startup(function(use)
 	use("ghillb/cybu.nvim") -- switch in buffers
 
 	-- git integration for nvim and toggleterm
-	use("jesseduffield/lazygit") -- git
+	-- use("jesseduffield/lazygit") -- git
 
 	-- leetcode from vim
 	use("ianding1/leetcode.vim") -- leetcode for nvim
 
 	-- displays the results of evaluating each line as you type
 	use("metakirby5/codi.vim") -- codi
+
+	-- vs code like terminal
+	use("CRAG666/betterTerm.nvim") -- betterTerm
+
+	--running cpp code in one line
+	use("CRAG666/code_runner.nvim") -- code runner
 
 	if packer_bootstrap then
 		require("packer").sync()

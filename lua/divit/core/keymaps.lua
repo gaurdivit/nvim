@@ -2,7 +2,6 @@
 vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
-
 ---------------------
 -- General Keymaps
 ---------------------
@@ -59,3 +58,11 @@ keymap.set("n", "<leader>tt", ":ToggleTerm<CR>") -- toggle term
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
 keymap.set("n", "<leader>z", ":TagbarToggle<CR>") -- open/close
+
+-- vim.cmd([[
+--   command! -nargs=0 RR :w <bar> :!g++ %:p:S -o %:p:r:S && %:p:r:S
+-- ]])
+
+vim.cmd([[
+  command! -nargs=0 RR :w <bar> :!g++ -std=c++17 %:p:S -o %:p:r:S && %:p:r:S
+]])
