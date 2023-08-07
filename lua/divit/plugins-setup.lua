@@ -68,6 +68,9 @@ return packer.startup(function(use)
 	use("L3MON4D3/LuaSnip") -- snippet engine
 	use("saadparwaiz1/cmp_luasnip") -- for autocompletion
 	use("rafamadriz/friendly-snippets") -- useful snippets
+	-- use("garbas/vim-snipmate") -- custom snippets
+	-- use("marcweber/vim-addon-mw-utils")
+	-- use("tomtom/tlib_vim")
 
 	-- managing & installing lsp servers, linters & formatters
 	use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
