@@ -64,5 +64,5 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 keymap.set("n", "<leader>z", ":TagbarToggle<CR>") -- open/close
 
 vim.cmd([[
-  command! -nargs=0 LL :w <bar> :!g++ -std=c++17 %:p:S -o %:p:r:S && %:p:r:S
+  command! -nargs=0 LL :w <bar> :!clang++ -std=c++14 %:p:S -o %:p:r:S && %:p:r:S
 ]])

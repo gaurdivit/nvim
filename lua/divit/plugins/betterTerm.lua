@@ -10,11 +10,11 @@ vim.keymap.set({ "n", "t" }, "<C-;>", betterTerm.open, { desc = "Open terminal" 
 vim.keymap.set({ "n" }, "<leader>tt", betterTerm.select, { desc = "Select terminal" })
 -- Create new term
 local current = 2
-vim.keymap.set({ "n", "t" }, "<C-u>", function()
+vim.keymap.set({ "t" }, "<C-u>", function()
 	betterTerm.open(current)
 	current = current + 1
 end, { desc = "New terminal" })
-vim.keymap.set({ "n", "t" }, "<C-i>", function()
+vim.keymap.set({ "t" }, "<C-i>", function()
 	betterTerm.open(current)
 	current = current - 1
 end, { desc = "New terminal" })
