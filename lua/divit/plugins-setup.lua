@@ -153,6 +153,8 @@ return packer.startup(function(use)
 	--transparent background
 	-- use("xiyaowong/transparent.nvim") -- transparent bg
 
+	use("github/copilot.vim") --copilot
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

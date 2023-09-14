@@ -9,7 +9,7 @@ vim.keymap.set({ "n", "t" }, "<C-;>", betterTerm.open, { desc = "Open terminal" 
 -- Select term focus
 vim.keymap.set({ "n" }, "<leader>tt", betterTerm.select, { desc = "Select terminal" })
 -- Create new term
-local current = 2
+local current = 1
 vim.keymap.set({ "t" }, "<C-u>", function()
 	betterTerm.open(current)
 	current = current + 1
