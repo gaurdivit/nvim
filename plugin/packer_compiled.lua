@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/barbecue.nvim",
     url = "https://github.com/utilyre/barbecue.nvim"
   },
-  ["betterTerm.nvim"] = {
-    loaded = true,
-    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/betterTerm.nvim",
-    url = "https://github.com/CRAG666/betterTerm.nvim"
-  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -149,11 +144,6 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  ["leetcode.vim"] = {
-    loaded = true,
-    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/leetcode.vim",
-    url = "https://github.com/ianding1/leetcode.vim"
-  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -194,6 +184,11 @@ _G.packer_plugins = {
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["minimap.vim"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/minimap.vim",
+    url = "https://github.com/wfxr/minimap.vim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -218,6 +213,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/nvim-navic",
     url = "https://github.com/SmiteshP/nvim-navic"
+  },
+  ["nvim-scrollbar"] = {
+    loaded = true,
+    path = "/Users/divitgaur/.local/share/nvim/site/pack/packer/start/nvim-scrollbar",
+    url = "https://github.com/petertriho/nvim-scrollbar"
   },
   ["nvim-tree.lua"] = {
     loaded = true,

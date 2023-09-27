@@ -38,7 +38,7 @@ keymap.set("n", "<leader>[", ":tabp<CR>") --  go to previous tab
 keymap.set("n", "<C-[>", "<C-T>") -- previous heading
 
 -- vim-maximizer
-keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
+keymap.set("n", "<leader>M", ":MaximizerToggle<CR>") -- toggle split window maximization
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
@@ -56,12 +56,8 @@ keymap.set("n", "<leader>gfc", "<cmd>Telescope git_bcommits<cr>") -- list git co
 keymap.set("n", "<leader>gb", "<cmd>Telescope git_branches<cr>") -- list git branches (use <cr> to checkout) ["gb" for git branch]
 keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current changes per file with diff preview ["gs" for git status]
 
-keymap.set("n", "<leader>tt", ":ToggleTerm<CR>") -- toggle term
-
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
-
-keymap.set("n", "<leader>z", ":TagbarToggle<CR>") -- open/close
 
 vim.cmd([[
   command! -nargs=0 LL :w <bar> :!clang++ -std=c++14 %:p:S -o %:p:r:S && %:p:r:S

@@ -69,9 +69,6 @@ return packer.startup(function(use)
 	use("L3MON4D3/LuaSnip") -- snippet engine
 	use("saadparwaiz1/cmp_luasnip") -- for autocompletion
 	use("rafamadriz/friendly-snippets") -- useful snippets
-	-- use("garbas/vim-snipmate") -- custom snippets
-	-- use("marcweber/vim-addon-mw-utils")
-	-- use("tomtom/tlib_vim")
 
 	-- managing & installing lsp servers, linters & formatters
 	use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
@@ -111,9 +108,6 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
-	-- inbuilt terminal
-	-- use("akinsho/toggleterm.nvim") -- terminal in nvim
-
 	-- outline for code structure
 	use("preservim/tagbar") -- get an overview of current file structure
 
@@ -135,25 +129,20 @@ return packer.startup(function(use)
 	-- for easy switch in buffers
 	use("ghillb/cybu.nvim") -- switch in buffers
 
-	-- git integration for nvim and toggleterm
-	-- use("jesseduffield/lazygit") -- git
-
-	-- leetcode from vim
-	use("ianding1/leetcode.vim") -- leetcode for nvim
-
 	-- displays the results of evaluating each line as you type
 	use("metakirby5/codi.vim") -- codi
-
-	-- vs code like terminal
-	use("CRAG666/betterTerm.nvim") -- betterTerm
 
 	--running cpp code in one line
 	use("CRAG666/code_runner.nvim") -- code runner
 
-	--transparent background
-	-- use("xiyaowong/transparent.nvim") -- transparent bg
-
+	-- copilot
 	use("github/copilot.vim") --copilot
+
+	--scrollbar
+	use("petertriho/nvim-scrollbar") --scrollbar
+
+	--mini map
+	use("wfxr/minimap.vim") --mini map
 
 	if packer_bootstrap then
 		require("packer").sync()
